@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DA3C9A64F2B37A859AC3849 /* libPods-ForCast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59815C1DAD4211A0364795E2 /* libPods-ForCast.a */; };
 		E493DD3E1FB2E134001FF23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD3D1FB2E134001FF23D /* AppDelegate.m */; };
-		E493DD411FB2E134001FF23D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD401FB2E134001FF23D /* ViewController.m */; };
-		E493DD441FB2E134001FF23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E493DD421FB2E134001FF23D /* Main.storyboard */; };
 		E493DD461FB2E134001FF23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E493DD451FB2E134001FF23D /* Assets.xcassets */; };
-		E493DD491FB2E134001FF23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E493DD471FB2E134001FF23D /* LaunchScreen.storyboard */; };
 		E493DD4C1FB2E134001FF23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD4B1FB2E134001FF23D /* main.m */; };
 		E493DD561FB2E134001FF23D /* ForCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD551FB2E134001FF23D /* ForCastTests.m */; };
 		E493DD611FB2E134001FF23D /* ForCastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD601FB2E134001FF23D /* ForCastUITests.m */; };
+		E493DD701FB2E1C4001FF23D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD6F1FB2E1C4001FF23D /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2499C01BA950A1FE2CD22562 /* libPods-ForCastUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForCastUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59815C1DAD4211A0364795E2 /* libPods-ForCast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForCast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B35634BC3D0837C14438AE /* Pods-ForCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForCast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForCast/Pods-ForCast.debug.xcconfig"; sourceTree = "<group>"; };
+		9E5C80B7FE1EB3EDDB23266C /* Pods-ForCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForCast.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForCast/Pods-ForCast.release.xcconfig"; sourceTree = "<group>"; };
+		CEEA1404AA56DE255AF6E44C /* libPods-ForCastTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForCastTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E493DD391FB2E134001FF23D /* ForCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E493DD3C1FB2E134001FF23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E493DD3D1FB2E134001FF23D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E493DD3F1FB2E134001FF23D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E493DD401FB2E134001FF23D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E493DD431FB2E134001FF23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E493DD451FB2E134001FF23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E493DD481FB2E134001FF23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E493DD4A1FB2E134001FF23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E493DD4B1FB2E134001FF23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E493DD511FB2E134001FF23D /* ForCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +51,8 @@
 		E493DD5C1FB2E134001FF23D /* ForCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E493DD601FB2E134001FF23D /* ForCastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForCastUITests.m; sourceTree = "<group>"; };
 		E493DD621FB2E134001FF23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E493DD6E1FB2E1C4001FF23D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E493DD6F1FB2E1C4001FF23D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA3C9A64F2B37A859AC3849 /* libPods-ForCast.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8400D3BCD5F5FC19458F9B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59815C1DAD4211A0364795E2 /* libPods-ForCast.a */,
+				CEEA1404AA56DE255AF6E44C /* libPods-ForCastTests.a */,
+				2499C01BA950A1FE2CD22562 /* libPods-ForCastUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		853BA544DBFF40677AD77B0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86B35634BC3D0837C14438AE /* Pods-ForCast.debug.xcconfig */,
+				9E5C80B7FE1EB3EDDB23266C /* Pods-ForCast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E493DD301FB2E134001FF23D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				E493DD541FB2E134001FF23D /* ForCastTests */,
 				E493DD5F1FB2E134001FF23D /* ForCastUITests */,
 				E493DD3A1FB2E134001FF23D /* Products */,
+				853BA544DBFF40677AD77B0E /* Pods */,
+				8400D3BCD5F5FC19458F9B34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +125,15 @@
 		E493DD3B1FB2E134001FF23D /* ForCast */ = {
 			isa = PBXGroup;
 			children = (
+				E493DD721FB2EB72001FF23D /* Two */,
+				E493DD711FB2EB0B001FF23D /* One */,
 				E493DD3C1FB2E134001FF23D /* AppDelegate.h */,
 				E493DD3D1FB2E134001FF23D /* AppDelegate.m */,
-				E493DD3F1FB2E134001FF23D /* ViewController.h */,
-				E493DD401FB2E134001FF23D /* ViewController.m */,
-				E493DD421FB2E134001FF23D /* Main.storyboard */,
 				E493DD451FB2E134001FF23D /* Assets.xcassets */,
-				E493DD471FB2E134001FF23D /* LaunchScreen.storyboard */,
 				E493DD4A1FB2E134001FF23D /* Info.plist */,
 				E493DD4B1FB2E134001FF23D /* main.m */,
+				E493DD6E1FB2E1C4001FF23D /* HomeViewController.h */,
+				E493DD6F1FB2E1C4001FF23D /* HomeViewController.m */,
 			);
 			path = ForCast;
 			sourceTree = "<group>";
@@ -132,6 +156,20 @@
 			path = ForCastUITests;
 			sourceTree = "<group>";
 		};
+		E493DD711FB2EB0B001FF23D /* One */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		E493DD721FB2EB72001FF23D /* Two */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E493DD651FB2E134001FF23D /* Build configuration list for PBXNativeTarget "ForCast" */;
 			buildPhases = (
+				E3904AFFD9578DECBD3A62FA /* [CP] Check Pods Manifest.lock */,
 				E493DD351FB2E134001FF23D /* Sources */,
 				E493DD361FB2E134001FF23D /* Frameworks */,
 				E493DD371FB2E134001FF23D /* Resources */,
+				FE737E3BF7CFC8BB9DB9A5DB /* [CP] Embed Pods Frameworks */,
+				6422EEDDAFAD0A5C81BF17B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E493DD491FB2E134001FF23D /* LaunchScreen.storyboard in Resources */,
 				E493DD461FB2E134001FF23D /* Assets.xcassets in Resources */,
-				E493DD441FB2E134001FF23D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +299,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6422EEDDAFAD0A5C81BF17B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForCast/Pods-ForCast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3904AFFD9578DECBD3A62FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE737E3BF7CFC8BB9DB9A5DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForCast/Pods-ForCast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E493DD351FB2E134001FF23D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E493DD411FB2E134001FF23D /* ViewController.m in Sources */,
 				E493DD4C1FB2E134001FF23D /* main.m in Sources */,
 				E493DD3E1FB2E134001FF23D /* AppDelegate.m in Sources */,
+				E493DD701FB2E1C4001FF23D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +388,6 @@
 			targetProxy = E493DD5D1FB2E134001FF23D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E493DD421FB2E134001FF23D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E493DD431FB2E134001FF23D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E493DD471FB2E134001FF23D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E493DD481FB2E134001FF23D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E493DD631FB2E134001FF23D /* Debug */ = {
@@ -428,6 +496,7 @@
 		};
 		E493DD661FB2E134001FF23D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B35634BC3D0837C14438AE /* Pods-ForCast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,12 +505,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangwei.ForCast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E493DD671FB2E134001FF23D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5C80B7FE1EB3EDDB23266C /* Pods-ForCast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,7 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangwei.ForCast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
