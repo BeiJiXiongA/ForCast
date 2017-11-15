@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6DA3C9A64F2B37A859AC3849 /* libPods-ForCast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59815C1DAD4211A0364795E2 /* libPods-ForCast.a */; };
+		DB012F771FB693920012BA30 /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB012F761FB693920012BA30 /* CommonTool.m */; };
+		DB012F831FB6941B0012BA30 /* LeTouForeCastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB012F821FB6941B0012BA30 /* LeTouForeCastViewController.m */; };
+		DB012F861FB694630012BA30 /* ShangSeForeCastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB012F851FB694630012BA30 /* ShangSeForeCastViewController.m */; };
+		DB012F891FB695600012BA30 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB012F881FB695600012BA30 /* BaseViewController.m */; };
+		DB012F8D1FB6A9BD0012BA30 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DB012F8C1FB6A9BD0012BA30 /* UIView+Category.m */; };
+		DB012F901FB6C4FA0012BA30 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB012F8F1FB6C4FA0012BA30 /* DataTableViewCell.m */; };
+		DB012F931FB6C6D60012BA30 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB012F921FB6C6D60012BA30 /* DataModel.m */; };
 		E493DD3E1FB2E134001FF23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD3D1FB2E134001FF23D /* AppDelegate.m */; };
 		E493DD461FB2E134001FF23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E493DD451FB2E134001FF23D /* Assets.xcassets */; };
 		E493DD4C1FB2E134001FF23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD4B1FB2E134001FF23D /* main.m */; };
 		E493DD561FB2E134001FF23D /* ForCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD551FB2E134001FF23D /* ForCastTests.m */; };
 		E493DD611FB2E134001FF23D /* ForCastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD601FB2E134001FF23D /* ForCastUITests.m */; };
-		E493DD701FB2E1C4001FF23D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E493DD6F1FB2E1C4001FF23D /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,21 @@
 		86B35634BC3D0837C14438AE /* Pods-ForCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForCast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForCast/Pods-ForCast.debug.xcconfig"; sourceTree = "<group>"; };
 		9E5C80B7FE1EB3EDDB23266C /* Pods-ForCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForCast.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForCast/Pods-ForCast.release.xcconfig"; sourceTree = "<group>"; };
 		CEEA1404AA56DE255AF6E44C /* libPods-ForCastTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForCastTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB012F751FB693920012BA30 /* CommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		DB012F761FB693920012BA30 /* CommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		DB012F811FB6941B0012BA30 /* LeTouForeCastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeTouForeCastViewController.h; sourceTree = "<group>"; };
+		DB012F821FB6941B0012BA30 /* LeTouForeCastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeTouForeCastViewController.m; sourceTree = "<group>"; };
+		DB012F841FB694630012BA30 /* ShangSeForeCastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShangSeForeCastViewController.h; sourceTree = "<group>"; };
+		DB012F851FB694630012BA30 /* ShangSeForeCastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShangSeForeCastViewController.m; sourceTree = "<group>"; };
+		DB012F871FB695600012BA30 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DB012F881FB695600012BA30 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DB012F8A1FB696AE0012BA30 /* Common.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.pch; sourceTree = "<group>"; };
+		DB012F8B1FB6A9BD0012BA30 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		DB012F8C1FB6A9BD0012BA30 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		DB012F8E1FB6C4FA0012BA30 /* DataTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		DB012F8F1FB6C4FA0012BA30 /* DataTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		DB012F911FB6C6D60012BA30 /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		DB012F921FB6C6D60012BA30 /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		E493DD391FB2E134001FF23D /* ForCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E493DD3C1FB2E134001FF23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E493DD3D1FB2E134001FF23D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,8 +72,6 @@
 		E493DD5C1FB2E134001FF23D /* ForCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E493DD601FB2E134001FF23D /* ForCastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForCastUITests.m; sourceTree = "<group>"; };
 		E493DD621FB2E134001FF23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E493DD6E1FB2E1C4001FF23D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		E493DD6F1FB2E1C4001FF23D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +119,89 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DB012F721FB691610012BA30 /* LeTou */ = {
+			isa = PBXGroup;
+			children = (
+				DB012F781FB693C60012BA30 /* Controller */,
+				DB012F791FB693C60012BA30 /* Model */,
+				DB012F7A1FB693C60012BA30 /* View */,
+			);
+			path = LeTou;
+			sourceTree = "<group>";
+		};
+		DB012F731FB691610012BA30 /* ShuangSe */ = {
+			isa = PBXGroup;
+			children = (
+				DB012F7C1FB693CE0012BA30 /* Controller */,
+				DB012F7D1FB693CE0012BA30 /* Model */,
+				DB012F7B1FB693CE0012BA30 /* View */,
+			);
+			path = ShuangSe;
+			sourceTree = "<group>";
+		};
+		DB012F741FB693600012BA30 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DB012F751FB693920012BA30 /* CommonTool.h */,
+				DB012F761FB693920012BA30 /* CommonTool.m */,
+				DB012F871FB695600012BA30 /* BaseViewController.h */,
+				DB012F881FB695600012BA30 /* BaseViewController.m */,
+				DB012F8B1FB6A9BD0012BA30 /* UIView+Category.h */,
+				DB012F8C1FB6A9BD0012BA30 /* UIView+Category.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DB012F781FB693C60012BA30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB012F811FB6941B0012BA30 /* LeTouForeCastViewController.h */,
+				DB012F821FB6941B0012BA30 /* LeTouForeCastViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB012F791FB693C60012BA30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB012F911FB6C6D60012BA30 /* DataModel.h */,
+				DB012F921FB6C6D60012BA30 /* DataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB012F7A1FB693C60012BA30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB012F8E1FB6C4FA0012BA30 /* DataTableViewCell.h */,
+				DB012F8F1FB6C4FA0012BA30 /* DataTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB012F7B1FB693CE0012BA30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB012F7C1FB693CE0012BA30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB012F841FB694630012BA30 /* ShangSeForeCastViewController.h */,
+				DB012F851FB694630012BA30 /* ShangSeForeCastViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB012F7D1FB693CE0012BA30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E493DD301FB2E134001FF23D = {
 			isa = PBXGroup;
 			children = (
@@ -125,15 +227,15 @@
 		E493DD3B1FB2E134001FF23D /* ForCast */ = {
 			isa = PBXGroup;
 			children = (
-				E493DD721FB2EB72001FF23D /* Two */,
-				E493DD711FB2EB0B001FF23D /* One */,
+				DB012F741FB693600012BA30 /* Tools */,
+				DB012F721FB691610012BA30 /* LeTou */,
+				DB012F731FB691610012BA30 /* ShuangSe */,
 				E493DD3C1FB2E134001FF23D /* AppDelegate.h */,
 				E493DD3D1FB2E134001FF23D /* AppDelegate.m */,
 				E493DD451FB2E134001FF23D /* Assets.xcassets */,
 				E493DD4A1FB2E134001FF23D /* Info.plist */,
 				E493DD4B1FB2E134001FF23D /* main.m */,
-				E493DD6E1FB2E1C4001FF23D /* HomeViewController.h */,
-				E493DD6F1FB2E1C4001FF23D /* HomeViewController.m */,
+				DB012F8A1FB696AE0012BA30 /* Common.pch */,
 			);
 			path = ForCast;
 			sourceTree = "<group>";
@@ -154,20 +256,6 @@
 				E493DD621FB2E134001FF23D /* Info.plist */,
 			);
 			path = ForCastUITests;
-			sourceTree = "<group>";
-		};
-		E493DD711FB2EB0B001FF23D /* One */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = One;
-			sourceTree = "<group>";
-		};
-		E493DD721FB2EB72001FF23D /* Two */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Two;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,8 +441,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E493DD4C1FB2E134001FF23D /* main.m in Sources */,
+				DB012F8D1FB6A9BD0012BA30 /* UIView+Category.m in Sources */,
+				DB012F931FB6C6D60012BA30 /* DataModel.m in Sources */,
+				DB012F891FB695600012BA30 /* BaseViewController.m in Sources */,
+				DB012F901FB6C4FA0012BA30 /* DataTableViewCell.m in Sources */,
+				DB012F771FB693920012BA30 /* CommonTool.m in Sources */,
+				DB012F831FB6941B0012BA30 /* LeTouForeCastViewController.m in Sources */,
 				E493DD3E1FB2E134001FF23D /* AppDelegate.m in Sources */,
-				E493DD701FB2E1C4001FF23D /* HomeViewController.m in Sources */,
+				DB012F861FB694630012BA30 /* ShangSeForeCastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +595,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2AB8TRR33;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//ForCast/Common.pch";
 				INFOPLIST_FILE = ForCast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangwei.ForCast;
@@ -516,6 +612,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2AB8TRR33;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//ForCast/Common.pch";
 				INFOPLIST_FILE = ForCast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangwei.ForCast;

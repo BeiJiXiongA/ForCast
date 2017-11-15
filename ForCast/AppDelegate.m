@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeViewController.h"
+#import "ShangSeForeCastViewController.h"
+#import "LeTouForeCastViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,9 +22,18 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    HomeViewController *VC = [[HomeViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:VC];
-    self.window.rootViewController = nav;
+    
+    ShangSeForeCastViewController *shuangseVC = [[ShangSeForeCastViewController alloc] init];
+    shuangseVC.title = @"福彩-双色球";
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:shuangseVC];
+    
+    LeTouForeCastViewController *leTouVC = [[LeTouForeCastViewController alloc] init];
+    leTouVC.title = @"体彩-大乐透";
+    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:leTouVC];
+    
+    UITabBarController *tab = [[UITabBarController alloc] init];
+    tab.viewControllers = @[nav2,nav];
+    self.window.rootViewController = tab;
     
     [self.window makeKeyAndVisible];
     
